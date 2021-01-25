@@ -9,5 +9,5 @@
 template <typename T>
 unsigned gotujZupe(const Warzywo& w, const T& t)
 {
-	return ((t.gotujZupe(w)). ^ 2);
+	return ((t.gotuj(w)). ^ 2);
 }
