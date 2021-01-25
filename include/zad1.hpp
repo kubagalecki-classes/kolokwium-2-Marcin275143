@@ -29,9 +29,8 @@ private:
 	string nazwa;
 	double cena;
 	int kolor;
-	inline static unsigned liczba_warzyw;
+	static unsigned liczba_warzyw;
 
 };
 
-inline unsigned Warzywo::liczba_warzyw = 0;
 // tutaj klasa Warzywo
