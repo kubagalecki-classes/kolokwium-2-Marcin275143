@@ -33,5 +33,5 @@ private:
 
 };
 
-unsigned Warzywo::liczba_warzyw = 0;
+inline unsigned Warzywo::liczba_warzyw = 0;
 // tutaj klasa Warzywo
