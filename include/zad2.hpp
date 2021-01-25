@@ -27,4 +27,12 @@ class Kiszony : public Ogorek
 
 };
 
+string jedzOgorek(Ogorek* ogorek)
+{
+	string tekst;
+	if (ogorek == new Zielony) tekst = "Zielony: " + ogorek->chrup();
+	else if (ogorek == new Kiszony) tekst = "Kiszony: " + ogorek->chrup();
+	return tekst;
+}
+
 // tutaj klasy Ogorek, Zielony i Kiszony
